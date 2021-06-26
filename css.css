@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+div.center {
+    text-align: center;
+}
+span.main {
+    background: brown;
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2 {
+    display: inline-block;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blue {
+    background-color: rgb(126, 126, 223);
+    border-radius: 8px;
+}
+.green {
+    background-color: rgb(92, 155, 92);
+    border-radius: 8px;
+}
+.yellow {
+    background-color: rgb(209, 209, 89);
+    border-radius: 8px;
+}
+.black {
+    background-color: rgb(85, 84, 84);
+    border-radius: 8px;
+    color: white;
+}
+.ul1 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+.lel {
+    display: inline-block;
+    text-align: center;
+ }
+ span.lel {
+     text-align: left;
+ }
+ .centor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
