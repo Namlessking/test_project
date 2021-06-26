@@ -1,9 +1,15 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: rgb(48, 48, 48);
+    font-family: arial, sans serif;
 }
 div.center {
     text-align: center;
+}
+img {
+    margin-right: 10px;
+    height: 200px;
 }
 span.main {
     background: brown;
@@ -20,6 +26,7 @@ h2 {
     margin: 0px;
     padding-left: 15px;
     padding-right: 15px;
+    color: white;
 }
 .blue {
     background-color: rgb(126, 126, 223);
@@ -34,7 +41,7 @@ h2 {
     border-radius: 8px;
 }
 .black {
-    background-color: rgb(85, 84, 84);
+    background-color: rgb(109, 36, 109);
     border-radius: 8px;
     color: white;
 }
@@ -43,14 +50,14 @@ h2 {
     text-decoration: underline;
     margin-top: 50px;
     margin-bottom: 50px;
- }
+}
 .lel {
     display: inline-block;
     text-align: center;
  }
  span.lel {
-     text-align: left;
- }
+    text-align: left;
+}
  .centor {
     display: flex;
     justify-content: center;
@@ -59,4 +66,19 @@ h2 {
 ul {
     text-align: center;
     list-style-position: inside;
+    color: white;
+}
+button {
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+p{
+    color: white;
 }

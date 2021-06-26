@@ -7,7 +7,7 @@ function login() {
     } 
     else {
         lives --;
-        alert("wrong password, You have " + lives + " lifes left");
+        alert("wrong password, You have " + lives + " lives left");
     }
     if (lives == 0) {
         alert("no more lives for you")
@@ -41,7 +41,20 @@ function resultat(){
     }
     pr = (res / 50) * 100
     alert("Votre score finale : "+res+"\n"+
-          "Pourcentage des repenses juste : "+pr+"%"+"\n"+
+          "Pourcentage des reponses juste : "+pr+"%"+"\n"+
           "Resultat finale : "+resul
     );
+}
+
+const validatebtn = document.getElementById("validate");
+const rightan = document.querySelectorAll('.right');
+validatebtn.addEventListener('click', function(){
+    for(i = 0 ; i < 5 ; i++) {
+        rightan[i].classList.add('juste')
+    }
+})
+function inscrire() {
+    const ndc = document.getElementById("username1");
+    const mdp = document.getElementById("password1");
+    console.log(ndc, mdp);
 }
