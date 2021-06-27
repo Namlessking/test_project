@@ -1,4 +1,4 @@
-var lives = 3, res,pr,resul;
+var lives = 3, res,pr,resul,pp = 0;
 function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
@@ -18,6 +18,7 @@ function login() {
 }
 
 function resultat(){
+    pp++;
     res = 0;
     if (document.getElementById("1").checked) {
         res = res + 10;
@@ -51,8 +52,12 @@ function signup() {
 const validatebtn = document.getElementById("validate");
 const rightan = document.querySelectorAll('.right');
 validatebtn.addEventListener('click', function(){
-    for(i = 0 ; i < 5 ; i++) {
-        rightan[i].classList.add('juste');
+    if (pp === 0) {
+        alert("Think you're smart ??!")
+    } else {
+        for(i = 0 ; i < 5 ; i++) {
+            rightan[i].classList.add('juste');
+        }
     }
 })
 
