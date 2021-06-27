@@ -1,8 +1,13 @@
+body {
+    font-family: arial, sans serif;
+    background-color: rgb(86, 87, 138);
+    color: white;
+}
 .main{
     text-align: center;
 }
 span{
-    background-color: yellow;
+    background-color: rgb(160, 50, 31);
     display: inline-block;
     text-align: center;
     padding-left: 20px;
@@ -18,4 +23,19 @@ span{
     background-color: green;
     padding: 4px;
     border-radius: 8px;
+}
+.lol {
+    margin: auto;
+    max-width: 700px;
+}
+button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+    margin-right: 50px;
+    margin-left: 140px;
+    border: none;
+    background-color: rgb(32, 225, 231);
+    border-radius: 4px;
 }

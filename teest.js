@@ -2,7 +2,7 @@ var lives = 3, res,pr,resul;
 function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if (username == "123" && password == "123") {
+    if (username == window.localStorage.getItem('username') && password == window.localStorage.getItem('password')) {
         window.location = "qcm.html";
     } 
     else {
@@ -45,16 +45,14 @@ function resultat(){
           "Resultat finale : "+resul
     );
 }
-
+function signup() {
+    window.location = "signup.html";
+}
 const validatebtn = document.getElementById("validate");
 const rightan = document.querySelectorAll('.right');
 validatebtn.addEventListener('click', function(){
     for(i = 0 ; i < 5 ; i++) {
-        rightan[i].classList.add('juste')
+        rightan[i].classList.add('juste');
     }
 })
-function inscrire() {
-    const ndc = document.getElementById("username1");
-    const mdp = document.getElementById("password1");
-    console.log(ndc, mdp);
-}
+
